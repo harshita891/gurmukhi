@@ -26,7 +26,7 @@ For the training usecase, please refer [here](https://github.com/AI4Bharat/Indic
 ### PreTainedTokenizer 
 ```python
 import torch
-from IndicTransToolkit import IndicProcessor # NOW IMPLEMENTED IN CYTHON !!
+from IndicTransToolkit.processor import IndicProcessor # NOW IMPLEMENTED IN CYTHON !!
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 ip = IndicProcessor(inference=True)
